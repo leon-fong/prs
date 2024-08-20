@@ -23,18 +23,13 @@ export default defineLazyEventHandler(() => {
         const repo = item.repository_url.match(/repos\/(.+)/)?.[1] || ''
         return {
           id: item.id,
-          // type: item.type!,
           repo,
           title: item.title,
           repository_url: item.repository_url,
           pr_url: item.html_url,
           number: item.number,
-          state: item.state,
-          // sha: commit?.sha || '',
-          // commit: `https://github.com/${item.repo.name}/commit/${commit?.sha}`,
+          state: item.pull_request?.merged_at ? 'Merged' : 'Closed',
           created_at: item.created_at!,
-          // version,
-          // payload: item.payload,
         }
       })
   }

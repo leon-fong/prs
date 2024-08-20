@@ -4,7 +4,7 @@ export interface ReleaseInfo {
   title: string
   created_at: string
   number: number
-  state: string
+  state: 'Merged' | 'Closed'
   repository_url: string
   pr_url: string
 }

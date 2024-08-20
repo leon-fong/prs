@@ -58,12 +58,16 @@ const { data = [] } = await useFetch<ReleaseInfo[]>('/api/releases')
           </div>
           <a :href="item.pr_url" target="_blank" flex="~ gap-1 items-center" ml--1 op50>
             <div i-ph-git-commit-duotone rotate-90 />
-            {{ item.title }}
+            <span line-clamp-1>{{ item.title }}</span>
           </a>
         </div>
-        <div flex="~ col items-end" lt-sm="flex-row gap-2" text-end>
-          <div>{{ item.state }}</div>
-          <time op50 :datatime="item.created_at">{{ formatTimeAgo(new Date(item.created_at)) }}</time>
+        <div flex="~ col items-end gap-1" flex-shrink-0 lt-sm="flex-row gap-2" text-end>
+          <div
+            rounded-3xl px-2 py-1 text-sm text-white :bg="item.state === 'Closed' ? '#cf222e' : '#8250df'"
+          >
+            {{ item.state }}
+          </div>
+          <time :datatime="item.created_at" op50>{{ formatTimeAgo(new Date(item.created_at)) }}</time>
         </div>
       </div>
     </div>
