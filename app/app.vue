@@ -8,7 +8,7 @@ useDark()
     <footer class="mt-auto p-2 text-center text-sm opacity-75 hover:opacity-100">
       <a
         class="hover:underline"
-        href="https://github.com/leon-fong/prs.leonfong.me"
+        href="https://github.com/leon-fong/prs"
       >
         source
       </a>

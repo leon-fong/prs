@@ -22,7 +22,7 @@ const { data = [] } = await useFetch<ReleaseInfo[]>('/api/releases')
       </p>
       <div mx-auto pt-6>
         <NuxtLink
-          href="https://github.com/leon-fong/prs.leonfong.me"
+          href="https://github.com/leon-fong/prs"
           external
           icon-btn
         >
