@@ -35,4 +35,4 @@ This project is inspiread by [Anthony Fu](https://github.com/antfu)'s [releases.
 
 ## License
 
-[MIT License](./LICENCE)
+[MIT License](./LICENSE)
