@@ -1,5 +1,12 @@
 ![Explore historic Open Source Contributions](.github/assets/banner.jpg 'Explore historic Open Source Contributions')
 
+# PRs
+
+[![License][license-src]][license-href]
+[![Nuxt][nuxt-src]][nuxt-href]
+
+> Explore historic Open Source Contributions (pull requests) on GitHub
+
 ## Built with
 
 - [Nuxt](https://nuxt.com/)
@@ -34,3 +41,8 @@ This project is inspiread by [Anthony Fu](https://github.com/antfu)'s [releases.
 ## License
 
 [MIT License](./LICENSE)
+
+[license-src]: https://img.shields.io/npm/l/nuxt-vercel-analytics.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-vercel-analytics
+[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
+[nuxt-href]: https://nuxt.com
