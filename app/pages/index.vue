@@ -7,8 +7,8 @@ const { data = [] } = await useFetch<ReleaseInfo[]>('/api/releases')
 
 <template>
   <div flex="~ col gap-8" mxa max-w-180 p10 font-sans lt-sm="px6">
-    <div flex="~ col">
-      <h1 text-3xl flex="~ gap-2 wrap justify-center items-center font-cal tabular-nums ">
+    <div flex="~ col" font-cal>
+      <h1 flex="~ gap-2 wrap justify-center items-center" text-3xl font-600 tabular-nums>
         <a href="https://github.com/leon-fong" target="_blank" flex="~ items-center gap-2">
           <img src="https://github.com/leon-fong.png" mr1 w-12 rounded-full>
           Leon Fong
@@ -28,8 +28,8 @@ const { data = [] } = await useFetch<ReleaseInfo[]>('/api/releases')
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="28"
+            height="28"
             viewBox="0 0 24 24"
           >
             <path

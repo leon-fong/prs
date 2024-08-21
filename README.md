@@ -13,7 +13,7 @@
 - [Nitro server API routes](https://nuxt.com/docs/guide/concepts/server-engine#server-engine)
 - [GitHub API](https://docs.github.com/en/rest)
 - [Uno CSS](https://unocss.dev/)
-- [Vercel](http://vercel.com)
+- [Vercel](https://vercel.com)
 
 ## Setup
 
