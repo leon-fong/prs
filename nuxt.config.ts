@@ -40,10 +40,10 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Leon Fong\'s recent pull requests' },
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: 'white' },
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#222222' },
-        { property: 'og:image', content: 'https://pr.leonfong.me/og.png' },
+        { property: 'og:image', content: 'https://prs.leonfong.me/og.png' },
         { property: 'og:image:alt', content: 'Leon Fong is Contributing...' },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: 'https://pr.leonfong.me/og.png' },
+        { name: 'twitter:image', content: 'https://prs.leonfong.me/og.png' },
         { name: 'twitter:image:alt', content: 'Leon Fong is Contributing...' },
       ],
     },
@@ -61,7 +61,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     githubToken: process.env.GITHUB_TOKEN,
-    githubLogin: process.env.GITHUB_LOGIN,
   },
 
   future: {

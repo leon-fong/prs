@@ -8,7 +8,7 @@ useDark()
     <footer class="mt-auto p-2 text-center text-sm opacity-75 hover:opacity-100">
       <a
         class="hover:underline"
-        href="https://github.com/leon-fong/pr.leonfong.me"
+        href="https://github.com/leon-fong/prs.leonfong.me"
       >
         source
       </a>
@@ -36,9 +36,5 @@ html.dark {
   color-scheme: dark;
   background: #121212;
   color: white;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 </style>
