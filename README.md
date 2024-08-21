@@ -1,6 +1,4 @@
-# PRs
-
-> Explore historic Open Source Contributions (pull requests) on GitHub
+![Explore historic Open Source Contributions](.github/assets/banner.jpg 'Explore historic Open Source Contributions')
 
 ## Built with
 
@@ -20,7 +18,7 @@ pnpm install
 cp .env.example .env
 
 # create a GitHub token and set it in the .env file:
-NUXT_GITHUB_TOKEN=your-github-token
+GITHUB_TOKEN=your-github-token
 
 # serve in dev mode, with hot reload at localhost:3000
 pnpm dev
